@@ -19,12 +19,10 @@ function App() {
       <button className="increment" onClick={handleincrement}>
         +
       </button>
-
+      console.log("Hi");
       <textarea name="" id="" cols="30" rows="10" readOnly value={a}>
-        
         {a}
       </textarea>
-
       <button className="decrement" onClick={handledecrement}>
         -
       </button>
